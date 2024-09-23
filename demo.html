@@ -1,0 +1,26 @@
+<html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <body>
+    <button id="postYourAdd" onclick="light()">OPEN</button>
+    <iframe
+      id="forPostyouradd"
+      src=""
+      title="W3Schools Free Online Web Tutorials"
+      height="500px"
+      width="700px"
+    >
+    </iframe>
+
+    <script>
+      function light() {
+        var iframe = $("#forPostyouradd");
+        debugger;
+        iframe.attr(
+          "src",
+          "https://qa-uaica-20.azakaw.com/authentication/login"
+        );
+      }
+    </script>
+  </body>
+</html>
